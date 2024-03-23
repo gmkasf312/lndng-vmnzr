@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Rainblur Landing Page Template: Tailwind Toolbox</title>
+        <title>Vimanizer</title>
         <meta name="description" content="" />
         <meta name="keywords" content="" />
         <script type="text/javascript">
@@ -149,7 +149,7 @@
         class="leading-normal tracking-normal text-indigo-400 m-0 p-6 bg-cover bg-fixed h-screen"
         style="background: radial-gradient(circle, rgba(163, 56, 155, 1) 0%, rgba(0, 0, 0, 0.9612438725490196) 35%)"
     >
-        <div class="h-full relative">
+        <div class="h-full flex flex-col">
             <!--Nav-->
             <div class="w-full container mx-auto">
                 <div class="w-full flex items-center justify-between">
@@ -166,7 +166,7 @@
             </div>
 
             <!--Main-->
-            <div class="container pt-24 md:pt-36 mx-auto grid grid-cols-1 gap-16 lg:grid-cols-2 items-center">
+            <div class="container pt-24 md:pt-36 mx-auto grid grid-cols-1 gap-16 items-center">
                 <!--Left Col-->
                 <div class="flex flex-col w-full justify-center lg:items-start overflow-y-hidden">
                     <h1
@@ -190,7 +190,7 @@
                     </p>
                 </div>
 
-                <form class="container bg-gray-900 opacity-75 shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
+                <form class="container bg-gray-900 opacity-75 shadow-lg lg:w-1/2 rounded-lg px-8 pt-6 pb-8 mb-4">
                     <div class="mb-4">
                         <label class="block text-blue-300 py-2 font-bold mb-2" for="emailaddress">
                             Signup for our newsletter to recieve a release date
@@ -216,8 +216,12 @@
 
                 <!--Footer-->
             </div>
-            <div class="w-full pt-16 text-sm text-center fade-in absolute bottom-6">
-                <a class="text-gray-500 no-underline hover:no-underline" href="#">&copy; 2024 Vimanizer</a>
+            <div class="w-full h-full pt-16 text-sm fade-in relative">
+                <a
+                    class="text-gray-500 no-underline text-center hover:no-underline absolute bottom-6 left-0 right-0"
+                    href="#"
+                    >&copy; 2024 Vimanizer</a
+                >
             </div>
         </div>
     </body>
